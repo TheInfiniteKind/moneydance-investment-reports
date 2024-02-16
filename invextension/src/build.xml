@@ -68,9 +68,9 @@ http://jakarta.apache.org/ant/index.html
 			<!-- <zipgroupfileset dir="${lib}" includes="moneydance.jar"/> -->
 		</jar>
 
-		<java newenvironment="true" 
-      classpathref="classpath"
-      classname="com.moneydance.admin.KeyAdmin">
+		<echo message="Will sign using key file: ${privkeyfile}, key ID ${privkeyid}, ext file: ${dist}/invextension.mxt"/>
+		<java classpathref="classpath"
+			  classname="com.moneydance.admin.KeyAdmin">
 			<arg value="signextjar"/>
 			<arg value="${privkeyfile}"/>
 			<arg value="${privkeyid}"/>

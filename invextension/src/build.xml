@@ -28,7 +28,7 @@ http://jakarta.apache.org/ant/index.html
 
 	<path id="classpath">
 		<pathelement path="../resources/extadmin.jar"/>
-		<pathelement path="../lib/moneydance.jar"/>
+		<pathelement path="../lib/moneydance-dev.jar"/>
 		<!--added this"C:/Program Files (x86)/Java/jdk1.7.0_65/jre/lib/jfxrt.jar -->
         <pathelement path="../lib/annotations.jar"/>
 	</path>
